@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiHeart, FiCode } from 'react-icons/fi';
+import { SiKaggle } from 'react-icons/si';
 
 const socials = [
   { href: 'https://github.com/mferitb', icon: <FiGithub />, label: 'GitHub' },
   { href: 'https://linkedin.com/', icon: <FiLinkedin />, label: 'LinkedIn' },
+  { href: 'https://kaggle.com/', icon: <SiKaggle />, label: 'Kaggle' },
   { href: 'mailto:your@email.com', icon: <FiMail />, label: 'Email' },
 ];
 

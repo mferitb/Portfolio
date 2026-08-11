@@ -1,10 +1,12 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiSend, FiMapPin, FiPhone } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiSend, FiMapPin } from 'react-icons/fi';
+import { SiKaggle } from 'react-icons/si';
 
 const socials = [
-  { icon: <FiGithub />, label: 'GitHub', href: 'https://github.com/', title: 'GitHub Profili' },
+  { icon: <FiGithub />, label: 'GitHub', href: 'https://github.com/mferitb', title: 'GitHub Profili' },
   { icon: <FiLinkedin />, label: 'LinkedIn', href: 'https://linkedin.com/', title: 'LinkedIn Profili' },
+  { icon: <SiKaggle />, label: 'Kaggle', href: 'https://kaggle.com/', title: 'Kaggle Profili' },
   { icon: <FiMail />, label: 'E-posta', href: 'mailto:your@email.com', title: 'E-posta Gönder' },
 ];
 
@@ -71,7 +73,7 @@ export default function Contact() {
               lineHeight: 1.65,
             }}
           >
-            Bir projeniz mi var? Birlikte çalışmak mı istiyorsunuz? Mesajınızı bırakın,
+            Bir projeniz mi var? Birlikte çalışmak mı istiyorsunuz? Ya da sadece merhaba mı demek istediniz? Mesajınızı bırakın,
             en kısa sürede dönüş yapayım.
           </p>
         </motion.div>
