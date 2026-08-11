@@ -4,10 +4,10 @@ import { SiKaggle, SiGoogleplay } from 'react-icons/si';
 
 const socials = [
   { href: 'https://github.com/mferitb', icon: <FiGithub />, label: 'GitHub' },
-  { href: 'https://linkedin.com/', icon: <FiLinkedin />, label: 'LinkedIn' },
-  { href: 'https://kaggle.com/', icon: <SiKaggle />, label: 'Kaggle' },
-  { href: 'https://play.google.com/store/apps/developer?id=your-developer-name', icon: <SiGoogleplay />, label: 'Play Store' },
-  { href: 'mailto:your@email.com', icon: <FiMail />, label: 'Email' },
+  { href: 'https://www.linkedin.com/in/mehmet-ferit-bilen-86abb8249/', icon: <FiLinkedin />, label: 'LinkedIn' },
+  { href: 'https://www.kaggle.com/mehmetferitbilen', icon: <SiKaggle />, label: 'Kaggle' },
+  { href: 'https://play.google.com/store/search?q=kafebb&c=apps&hl=tr', icon: <SiGoogleplay />, label: 'Play Store' },
+  { href: 'mailto:bilenmehmetferit@gmail.com', icon: <FiMail />, label: 'Email' },
 ];
 
 const navLinks = [
@@ -200,7 +200,7 @@ export default function Footer() {
                 {[
                   { label: 'GitHub', href: 'https://github.com/mferitb' },
                   { label: 'LinkedIn', href: 'https://linkedin.com/' },
-                  { label: 'your@email.com', href: 'mailto:your@email.com' },
+                  { label: 'bilenmehmetferit@gmail.com', href: 'mailto:bilenmehmetferit@gmail.com' },
                 ].map((item) => (
                   <a
                     key={item.label}

@@ -5,10 +5,10 @@ import { SiKaggle, SiGoogleplay } from 'react-icons/si';
 
 const socials = [
   { icon: <FiGithub />, label: 'GitHub', href: 'https://github.com/mferitb', title: 'GitHub Profili' },
-  { icon: <FiLinkedin />, label: 'LinkedIn', href: 'https://linkedin.com/', title: 'LinkedIn Profili' },
-  { icon: <SiKaggle />, label: 'Kaggle', href: 'https://kaggle.com/', title: 'Kaggle Profili' },
-  { icon: <SiGoogleplay />, label: 'Play Store', href: 'https://play.google.com/store/apps/developer?id=your-developer-name', title: 'Google Play Store' },
-  { icon: <FiMail />, label: 'E-posta', href: 'mailto:your@email.com', title: 'E-posta Gönder' },
+  { icon: <FiLinkedin />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/mehmet-ferit-bilen-86abb8249/', title: 'LinkedIn Profili' },
+  { icon: <SiKaggle />, label: 'Kaggle', href: 'https://www.kaggle.com/mehmetferitbilen', title: 'Kaggle Profili' },
+  { icon: <SiGoogleplay />, label: 'Play Store', href: 'https://play.google.com/store/search?q=kafebb&c=apps&hl=tr', title: 'Google Play Store' },
+  { icon: <FiMail />, label: 'E-posta', href: 'mailto:bilenmehmetferit@gmail.com', title: 'E-posta Gönder' },
 ];
 
 export default function Contact() {
@@ -139,7 +139,7 @@ export default function Contact() {
                 }}
               >
                 <span style={{ color: '#76ABAE', fontSize: 18 }}><FiMail /></span>
-                <span style={{ color: 'rgba(245,245,245,0.7)', fontSize: 14 }}>your@email.com</span>
+                <span style={{ color: 'rgba(245,245,245,0.7)', fontSize: 14 }}>bilenmehmetferit@gmail.com</span>
               </div>
             </div>
 
