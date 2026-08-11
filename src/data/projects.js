@@ -61,22 +61,22 @@ export const projects = [
   },
   {
     id: 7,
-    title: "PostgreSQL Raporlama Paneli",
+    title: "Studystics",
     description:
-      "SQL Server ve PostgreSQL üzerinde çalışan, karmaşık sorgu optimizasyonu ve dinamik grafik görselleştirmeleri sunan kurumsal veri analizi dashboard'u.",
-    tags: ["PostgreSQL", "SQL Server", "React", "JavaScript", "Chart.js"],
+      "Studystics, öğrenciler ve çalışanlar için geliştirilmiş, React Native ve Expo altyapısına sahip akıllı çalışma zamanlayıcısı ve verimlilik analizi mobil uygulamasıdır. Studystics, şu anda Google Play Store'da yayındadır.",
+    tags: ["React Natıve", "Expo", "Android"],
     gradient: "from-[#FF5722]/15 to-[#76ABAE]/15",
     accent: "#FF5722",
     emoji: "📊",
   },
   {
     id: 8,
-    title: "Firebase Push Notification Sistemi",
+    title: "Slide Football",
     description:
-      "Firebase Cloud Messaging altyapısıyla kurulmuş, kitleye özel bildirim gönderme, zamanlama ve analitik takip özelliklerine sahip bildirim yönetim platformu.",
-    tags: ["Firebase", "FCM", "React", "JavaScript", "Node.js"],
+      "Slide Football, futbol efsaneleri, genç yetenekler, mevcut yıldızlar ve ikonik futbol anlarının görsellerinden oluşan, React Native ve Expo altyapılı bir sliding puzzle mobil oyunudur. Slide Football, şu anda Google Play Store'da yayındadır.",
+    tags: ["React Natıve", "Expo", "Fırabase", "Androıd"],
     gradient: "from-[#76ABAE]/20 to-[#FF5722]/10",
     accent: "#76ABAE",
-    emoji: "🔔",
+    emoji: "⚽",
   },
 ];

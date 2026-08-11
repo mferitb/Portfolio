@@ -1,12 +1,13 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiSend, FiMapPin } from 'react-icons/fi';
-import { SiKaggle } from 'react-icons/si';
+import { SiKaggle, SiGoogleplay } from 'react-icons/si';
 
 const socials = [
   { icon: <FiGithub />, label: 'GitHub', href: 'https://github.com/mferitb', title: 'GitHub Profili' },
   { icon: <FiLinkedin />, label: 'LinkedIn', href: 'https://linkedin.com/', title: 'LinkedIn Profili' },
   { icon: <SiKaggle />, label: 'Kaggle', href: 'https://kaggle.com/', title: 'Kaggle Profili' },
+  { icon: <SiGoogleplay />, label: 'Play Store', href: 'https://play.google.com/store/apps/developer?id=your-developer-name', title: 'Google Play Store' },
   { icon: <FiMail />, label: 'E-posta', href: 'mailto:your@email.com', title: 'E-posta Gönder' },
 ];
 
